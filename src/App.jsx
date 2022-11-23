@@ -7,9 +7,13 @@ function App() {
     <div className='App container'>
       <h1>App</h1>
       {/* <Condition /> */}
-      <Icon size='lg'>bomb</Icon>
+      <Icon dark size='lg'>
+        bomb
+      </Icon>
       <Icon>superpowers</Icon>
-      <Icon size='lg'>cloud</Icon>
+      <Icon color='dark' size='lg'>
+        cloud
+      </Icon>
       <Icon></Icon>
     </div>
   );
