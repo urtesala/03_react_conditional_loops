@@ -1,20 +1,30 @@
 import Condition from './components/Condition';
-import Icon from './components/UI/icons/Icon';
 import './App.css';
+import Icon from './components/UI/icons/Icon';
+import ArrayOfElements from './components/ArrayOfElements';
+
+const colors = [
+  { id: 1, value: 'red' }, // cObj
+  { id: 2, value: 'green' },
+  { id: 3, value: 'blue' },
+  { id: 4, value: 'yellow' },
+  { id: 5, value: 'black' },
+];
 
 function App() {
   return (
     <div className='App container'>
       <h1>App</h1>
       {/* <Condition /> */}
+      <Icon dark color='dark'>
+        thermometer-quarter
+      </Icon>
+      <Icon dark>thermometer-half</Icon>
       <Icon dark size='lg'>
-        bomb
+        thermometer-full
       </Icon>
-      <Icon>superpowers</Icon>
-      <Icon color='dark' size='lg'>
-        cloud
-      </Icon>
-      <Icon></Icon>
+      {/* <Icon /> */}
+      <ArrayOfElements data={colors} />
     </div>
   );
 }
