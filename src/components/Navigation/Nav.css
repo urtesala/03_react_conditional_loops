@@ -1,11 +1,15 @@
 .mainHeader {
   color: #fff;
   background-color: #333;
-  height: 60px;
+  height: ū0px;
   /* display: flex; */
 }
 
 .navLink {
   padding: 1.2rem;
   display: inline-block;
+}
+.navLink:hover {
+  background-color: #fff;
+  color: #333;
 }
