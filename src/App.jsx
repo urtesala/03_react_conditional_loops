@@ -2,7 +2,7 @@ import Condition from './components/Condition';
 import './App.css';
 import Icon from './components/UI/icons/Icon';
 import ArrayOfElements from './components/ArrayOfElements';
-import Nav from './components/Nav';
+import Nav from './components/Navigation/Nav';
 
 const colors = [
   { id: 1, value: 'red' }, // cObj
